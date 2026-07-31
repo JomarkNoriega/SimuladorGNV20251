@@ -1,15 +1,26 @@
-# Simulador GNV (Vite + React + TS)
+# Simulador GNV - 2025.12.18
 
-Tabla de tarifas actualizada: se **elimina** "SIN SEGURO" y se **agrega** "SEGURO VIDA + SOLIDARIO".
+Simulador web en **React + Vite** que replica la lógica del Excel (lookup TEA, cálculo de cuota, factor y alerta).
 
-## Ejecutar
+## Requisitos
+- Node.js 18+ (recomendado)
+
+## Ejecutar en local
 ```bash
 npm install
 npm run dev
 ```
 
-## Build/Preview
+Abrir: http://localhost:5173
+
+## Build (para Vercel)
 ```bash
 npm run build
 npm run preview
 ```
+
+## Deploy en Vercel
+- Importa este repo desde GitHub en Vercel.
+- Framework: **Vite**
+- Build Command: `npm run build`
+- Output Directory: `dist`
